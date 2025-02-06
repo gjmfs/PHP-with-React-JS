@@ -2,10 +2,10 @@
 $server="localhost";
 $dbuser="root";
 $dbpassword="root";
-$dbname="test";
+$dbname="react_php";
 
-$con=mysqli_connect($server,$dbuser,$dbpassword, $dbname);
-if(!$con){
+$conn=mysqli_connect($server,$dbuser,$dbpassword, $dbname);
+if(!$conn){
     die("db connection error");
 }
 ?>
